@@ -1,30 +1,31 @@
 {
-  "name": "presentation",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-hot-loader": "^4.0.0",
-    "spectacle": "^4.2.2"
-  },
-  "devDependencies": {
-    "@types/jest": "^22.2.2",
-    "@types/node": "^9.6.0",
-    "@types/react": "^16.0.41",
-    "@types/react-dom": "^16.0.4",
-    "@types/react-hot-loader": "^3.0.6",
-    "@types/spectacle": "^1.1.6",
-    "@types/webpack-env": "^1.13.5",
-    "react-scripts-ts": "2.14.0",
-    "redbox-react": "^1.5.0",
-    "spectacle-renderer": "^0.0.3",
-    "typescript": "^2.7.2"
-  },
-  "scripts": {
-    "start": "react-scripts-ts start",
-    "build": "react-scripts-ts build",
-    "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
-  }
+    "name": "presentation",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "react": "^16.4.2",
+        "react-dom": "^16.4.2",
+        "react-hot-loader": "^4.3.4",
+        "spectacle": "^5.0.0"
+    },
+    "devDependencies": {
+        "@types/jest": "^23.3.1",
+        "@types/node": "^10.7.1",
+        "@types/react": "^16.4.11",
+        "@types/react-dom": "^16.0.7",
+        "@types/react-hot-loader": "^4.1.0",
+        "@types/spectacle": "^1.2.2",
+        "@types/webpack-env": "^1.13.6",
+        "react-scripts-ts": "2.17.0",
+        "redbox-react": "^1.6.0",
+        "spectacle-renderer": "^0.0.3",
+        "typescript": "^3.0.1",
+        "tslint-config-prettier": "^1.14.0"
+    },
+    "scripts": {
+        "start": "react-scripts-ts start",
+        "build": "react-scripts-ts build",
+        "test": "react-scripts-ts test --env=jsdom",
+        "eject": "react-scripts-ts eject"
+    }
 }
