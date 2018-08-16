@@ -9,9 +9,7 @@ const CustomErrorReporter: React.SFC<{ error: any }> = ({ error }) => (
   <Redbox error={error} />
 )
 
-ReactDOM.render(<Presentation />, document.getElementById(
-  "root"
-) as HTMLElement)
+ReactDOM.render(<Presentation />, document.getElementById("root"))
 
 ReactDOM.render(
   <AppContainer errorReporter={CustomErrorReporter}>

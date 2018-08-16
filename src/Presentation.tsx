@@ -6,18 +6,33 @@ import "./images"
 
 require("normalize.css")
 
-const theme = createTheme(
+const lightTheme = [
   {
     primary: "white",
-    secondary: "#1F2022",
-    tertiary: "#03A9FC",
-    quarternary: "#CECECE"
+    secondary: "rgb(94,94,94)",
+    tertiary: "rgb(165, 207, 0)",
+    quarternary: "rgb(0,115,209)"
   },
   {
-    primary: "Montserrat",
-    secondary: "Helvetica"
+    primary: "Signika Regular",
+    secondary: "Signika Light"
   }
-)
+]
+
+const darkTheme = [
+  {
+    primary: "rgb(94,94,94)",
+    secondary: "white",
+    tertiary: "rgb(165, 207, 0)",
+    quarternary: "rgb(0,115,209)"
+  },
+  {
+    primary: "Signika Regular",
+    secondary: "Signika Light"
+  }
+]
+
+const theme = createTheme(...darkTheme)
 interface State {
   // tslint:disable-next-line:no-any
   slides?: React.ReactElement<any>[]
