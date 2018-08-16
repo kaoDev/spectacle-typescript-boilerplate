@@ -14,8 +14,16 @@ const lightTheme = [
     quarternary: "rgb(0,115,209)"
   },
   {
-    primary: "Signika Regular",
-    secondary: "Signika Light"
+    primary: {
+      name: "Signika",
+      googleFont: true,
+      styles: ["300", "400"]
+    },
+    secondary: {
+      name: "Montserrat",
+      googleFont: true,
+      styles: ["300", "400"]
+    }
   }
 ]
 
@@ -27,8 +35,16 @@ const darkTheme = [
     quarternary: "rgb(0,115,209)"
   },
   {
-    primary: "Signika Regular",
-    secondary: "Signika Light"
+    primary: {
+      name: "Signika",
+      googleFont: true,
+      styles: ["300", "400"]
+    },
+    secondary: {
+      name: "Montserrat",
+      googleFont: true,
+      styles: ["300", "400"]
+    }
   }
 ]
 
